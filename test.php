@@ -12,7 +12,7 @@ $beginThismonth=mktime(0,0,0,date('m')+1,1,date('Y'));
 $endThismonth=mktime(23,59,59,date('m')+1,date('t'),date('Y'))*1000;
 
 // $a = date('t');
-var_export($endThismonth);
+var_export($beginThismonth);
 
 
 
